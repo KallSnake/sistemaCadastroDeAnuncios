@@ -31,7 +31,7 @@ Os relatórios pode ser filtrados por intervalo de tempo e cliente.
 
 Para executar o sistema é necessário que seu computador tenha instalado o JRE (Java Runtime Environment).
 
-O JRE consiste no Java Virtual Machine (JVM), nas classes centrais e bibliotecas de suporte da plataforma Java. Ele representa a parte responsável pelo tempo de execução do software Java. Dessa forma instalando o JRE na maquina, já tem a JVM e será possível desfrutar de qualquer aplicação Java no seu computador.
+O JRE consiste no Java Virtual Machine (JVM), classes centrais e bibliotecas de suporte da plataforma Java. Ele representa a parte responsável pelo tempo de execução do software Java. Dessa forma instalando o JRE na maquina, já tem a JVM e será possível desfrutar de qualquer aplicação Java no seu computador.
 
 
 #### Instalando o JDK (Java Development Kit)
