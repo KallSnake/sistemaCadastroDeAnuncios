@@ -55,4 +55,4 @@ Se você optou em fazer download do arquivo (.jar), clique com o botão direito 
 
 Caso tenha optado em baixar projeto completo, você vai procurar pela pasta com o nome (dist) dentro da pasta do sistema, abrir ela e seguir com o procedimento descrito acima.
 
-![](https://github.com/KallSnake/sistemaCadastroDeAnuncios/blob/main/img/Abrir%20Projeto%201.png)
+![](https://github.com/KallSnake/sistemaCadastroDeAnuncios/blob/main/img/Abrir%20Projeto%202.png)
