@@ -43,7 +43,10 @@ Através do meu Drive: [JDK - Drive](https://drive.google.com/file/d/1f6lVIjaXHS
 
 Após ter concluido a instalação do JDK, vamos para execução do sistema.
 
-Você pode baixar o arquivo (.jar) ou Baixar projeto completo:
+Você pode baixar o arquivo (.jar) mais simples e recomendável ou baixar o projeto completo:
 
 [ Baixar arquivo .jar ]() ou [ Baixar projeto completo ]()
 
+Se você optou em fazer download do arquivo (.jar), clique com o botão direito do seu mouse, selecione em ABRIR COM -> OpenJDK Platform binary ou se seu aqruivo já estiver com extensão (.jar) so dar um duplo clique.
+
+![ Exemplo ]()
