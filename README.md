@@ -37,4 +37,19 @@ O JRE consiste no Java Virtual Machine (JVM), nas classes centrais e bibliotecas
 
 O JDK é o pacote que inclui tudo o que é necessário para escrever aplicações e também o JRE. Ou seja, instalando o JDK, será instalado os pacotes para desenvolvimento e compilação de aplicações, além do JRE e não poderia faltar a JVM.
 
-Link para dowloand: [Oracle](https://www.oracle.com/java/technologies/javase-downloads.html)
+Link para download: [ Site Oficial - Oracle ](https://www.oracle.com/java/technologies/javase-downloads.html)
+ou
+Através do meu Drive: [JDK - Drive](https://drive.google.com/file/d/1f6lVIjaXHSvQq6-LDrMDNyfZa-4JRjRb/view?usp=sharing)
+
+Após ter concluido a instalação do JDK, vamos para execução do sistema.
+
+Você pode baixar o arquivo (.jar):
+
+[Baixar arquivo .jar]()
+
+ou 
+
+Baixar projeto completo:
+
+[Baixar projeto completo]()
+
