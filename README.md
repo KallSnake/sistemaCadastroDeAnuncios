@@ -48,10 +48,13 @@ Após ter concluido a instalação do JDK, vamos para execução do sistema.
 
 Você baixa o projeto, após concluir o download, extrair e tudo mais, procure pela pasta com o nome (dist), depois procure pelo arquivo (SistemaCadastroDeAnuncios) com a extensão (.jar) e der um duplo clique nele, caso seu arquivo não esteja com extensão (.jar) clique com o botão direito do seu mouse, selecione em ABRIR COM -> OpenJDK Platform binary, como nas imagens a seguir.
 
+Pasta (dist):
 ![](https://github.com/KallSnake/sistemaCadastroDeAnuncios/blob/main/img/Abrir%20Projeto%201.png)
 
+Arquivo (SistemaCadastroDeAnuncios):
 ![](https://github.com/KallSnake/sistemaCadastroDeAnuncios/blob/main/img/Abrir%20Projeto%202.png)
 
+Selecionar abrir com -> OpenJDK Platform binary:
 ![](https://github.com/KallSnake/sistemaCadastroDeAnuncios/blob/main/img/Abrir%20Projeto%203.png)
 
 ## Utilização do sistema
