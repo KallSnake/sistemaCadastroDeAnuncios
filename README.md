@@ -41,12 +41,18 @@ Link para download: [ Site Oficial - Oracle ](https://www.oracle.com/java/techno
 ou
 Através do meu Drive: [JDK - Drive](https://drive.google.com/file/d/1f6lVIjaXHSvQq6-LDrMDNyfZa-4JRjRb/view?usp=sharing)
 
+
 Após ter concluido a instalação do JDK, vamos para execução do sistema.
+
 
 Você pode baixar o arquivo (.jar) mais simples e recomendável ou baixar o projeto completo:
 
 [ Baixar arquivo .jar ]() ou [ Baixar projeto completo ]()
 
 Se você optou em fazer download do arquivo (.jar), clique com o botão direito do seu mouse, selecione em ABRIR COM -> OpenJDK Platform binary ou se seu aqruivo já estiver com extensão (.jar) so dar um duplo clique.
+
+![](https://github.com/KallSnake/sistemaCadastroDeAnuncios/blob/main/img/Abrir%20Projeto%201.png)
+
+Caso tenha optado em baixar projeto completo, você vai procurar pela pasta com o nome (dist) dentro da pasta do sistema, abrir ela e seguir com o procedimento descrito acima.
 
 ![](https://github.com/KallSnake/sistemaCadastroDeAnuncios/blob/main/img/Abrir%20Projeto%201.png)
