@@ -10,8 +10,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
     
     FrmCadastrar frmCadastrar;
     FrmRelatorio frmRelatorio;
-    
-    
+   
     
     public TelaPrincipal() {
         initComponents();
