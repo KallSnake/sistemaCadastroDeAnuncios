@@ -49,4 +49,4 @@ Você pode baixar o arquivo (.jar) mais simples e recomendável ou baixar o proj
 
 Se você optou em fazer download do arquivo (.jar), clique com o botão direito do seu mouse, selecione em ABRIR COM -> OpenJDK Platform binary ou se seu aqruivo já estiver com extensão (.jar) so dar um duplo clique.
 
-![ Exemplo ]()
+![ Exemplo ](https://github.com/KallSnake/sistemaCadastroDeAnuncios/blob/main/img/Abrir%20Projeto%201.png)
