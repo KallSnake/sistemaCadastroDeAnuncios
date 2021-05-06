@@ -27,7 +27,7 @@ O sistema fornece os relatórios de cada anúncio contendo:
 Os relatórios pode ser filtrados por intervalo de tempo e cliente.
 
 
-## Procedimento para instalação, configuração e execução do sistemas
+## Procedimento para instalação, configuração e execução do sistema
 
 Para executar o sistema é necessário que seu computador tenha instalado o JRE (Java Runtime Environment).
 
@@ -36,3 +36,5 @@ O JRE consiste no Java Virtual Machine (JVM), nas classes centrais e bibliotecas
 #### Instalando o JDK (Java Development Kit)
 
 O JDK é o pacote que inclui tudo o que é necessário para escrever aplicações e também o JRE. Ou seja, instalando o JDK, será instalado os pacotes para desenvolvimento e compilação de aplicações, além do JRE e não poderia faltar a JVM.
+
+Link para dowloand: [Oracle](https://www.oracle.com/java/technologies/javase-downloads.html)
