@@ -33,6 +33,7 @@ Para executar o sistema é necessário que seu computador tenha instalado o JRE 
 
 O JRE consiste no Java Virtual Machine (JVM), nas classes centrais e bibliotecas de suporte da plataforma Java. Ele representa a parte responsável pelo tempo de execução do software Java. Dessa forma instalando o JRE na maquina, já tem a JVM e será possível desfrutar de qualquer aplicação Java no seu computador.
 
+
 #### Instalando o JDK (Java Development Kit)
 
 O JDK é o pacote que inclui tudo o que é necessário para escrever aplicações e também o JRE. Ou seja, instalando o JDK, será instalado os pacotes para desenvolvimento e compilação de aplicações, além do JRE e não poderia faltar a JVM.
@@ -56,3 +57,6 @@ Se você optou em fazer download do arquivo (.jar), clique com o botão direito 
 Caso tenha optado em baixar projeto completo, você vai procurar pela pasta com o nome (dist) dentro da pasta do sistema, abrir ela e seguir com o procedimento descrito acima.
 
 ![](https://github.com/KallSnake/sistemaCadastroDeAnuncios/blob/main/img/Abrir%20Projeto%202.png)
+
+###### Utilização do sistema
+
