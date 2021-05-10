@@ -81,3 +81,21 @@ Preencha todos os campos disponíveis:
 Em seguida, clique no botão "Salvar":
 
 ![](https://github.com/KallSnake/sistemaCadastroDeAnuncios/blob/main/img/Abrir%20Projeto%206.png)
+
+
+Após salvar, você receberá mensagem de sucesso e seu registro será carregado na tabela abaixo.
+
+
+Para realizar relatório, necessário informar o nome do cliente:
+
+![](https://github.com/KallSnake/sistemaCadastroDeAnuncios/blob/main/img/Abrir%20Projeto%207.png)
+
+
+Clicar no botão "pesquisar":
+
+![](https://github.com/KallSnake/sistemaCadastroDeAnuncios/blob/main/img/Abrir%20Projeto%208.png)
+
+
+Logo em seguida, sua busca será carregada na tabela abaixo com as pojeções estimadas:
+
+![](https://github.com/KallSnake/sistemaCadastroDeAnuncios/blob/main/img/Abrir%20Projeto%209.png)
