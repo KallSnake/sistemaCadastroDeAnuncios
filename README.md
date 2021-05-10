@@ -24,7 +24,7 @@ O sistema fornece os relatórios de cada anúncio contendo:
 
 - Quantidade máxima de compartilhamentos;
 
-Os relatórios pode ser filtrados por intervalo de tempo e cliente.
+Os relatórios pode ser filtrados por nome do cliente.
 
 
 ## Procedimento para instalação, configuração e execução do sistema
