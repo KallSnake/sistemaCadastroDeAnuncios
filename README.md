@@ -46,7 +46,9 @@ Através do meu Drive: [JDK - Drive](https://drive.google.com/file/d/1f6lVIjaXHS
 Após ter concluido a instalação do JDK, vamos para execução do sistema.
 
 
-Você baixa o projeto, após concluir o download, extrair e tudo mais, procure pela pasta com o nome (dist), depois procure pelo arquivo (SistemaCadastroDeAnuncios) com a extensão (.jar) e der um duplo clique nele, caso seu arquivo não esteja com extensão (.jar) clique com o botão direito do seu mouse, selecione em ABRIR COM -> OpenJDK Platform binary, como nas imagens a seguir.
+Você baixa o projeto, após concluir o download, extrair e tudo mais, procure pela pasta com o nome (base) copie ela e cole no seu disco local (C:).
+
+Agora, procure pela pasta com o nome (dist) abra ela e procure pelo arquivo (SistemaCadastroDeAnuncios) com a extensão (.jar) e der um duplo clique nele, caso seu arquivo não esteja com extensão (.jar) clique com o botão direito do seu mouse, selecione em ABRIR COM -> OpenJDK Platform binary, como nas imagens a seguir.
 
 Pasta (dist):
 
