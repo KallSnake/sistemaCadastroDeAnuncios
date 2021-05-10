@@ -96,6 +96,6 @@ Clicar no botão "pesquisar":
 ![](https://github.com/KallSnake/sistemaCadastroDeAnuncios/blob/main/img/Abrir%20Projeto%208.png)
 
 
-Logo em seguida, sua busca será carregada na tabela abaixo com as pojeções estimadas:
+Logo em seguida, sua busca será carregada na tabela abaixo com as projeções estimadas:
 
 ![](https://github.com/KallSnake/sistemaCadastroDeAnuncios/blob/main/img/Abrir%20Projeto%209.png)
