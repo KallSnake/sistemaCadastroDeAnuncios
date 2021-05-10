@@ -300,6 +300,9 @@
     <Component class="javax.swing.JTextField" name="txtCliente">
     </Component>
     <Component class="javax.swing.JTextField" name="txtPesquisar">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" value="Informe o nome do cliente para pesquisar"/>
+      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtPesquisarActionPerformed"/>
       </Events>

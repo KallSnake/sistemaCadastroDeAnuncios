@@ -1,14 +1,10 @@
 package view;
 
-import controller.ConexaoDB;
-import controller.ControllerCadastrarAnuncio;
+import controller.*;
 import java.sql.SQLException;
 import java.util.ArrayList;
-import javax.swing.JOptionPane;
-import javax.swing.JTable;
-import javax.swing.ListSelectionModel;
-import model.ModelCadastrarAnuncio;
-import model.ModelTabela;
+import javax.swing.*;
+import model.*;
 
 public class FrmCadastrar extends javax.swing.JFrame {
     
@@ -20,7 +16,6 @@ public class FrmCadastrar extends javax.swing.JFrame {
     public FrmCadastrar() {
   
         initComponents();
-        
         
         // ABILITANDO/DESABILITANDO OS CAMPOS
         txtNomeAnuncio.setEnabled(!true);
@@ -158,6 +153,7 @@ public class FrmCadastrar extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(jTableAnuncio);
 
+        txtPesquisar.setToolTipText("Informe o nome do cliente para pesquisar");
         txtPesquisar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtPesquisarActionPerformed(evt);
@@ -288,7 +284,6 @@ public class FrmCadastrar extends javax.swing.JFrame {
     private void btnDeletarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDeletarActionPerformed
        
         // BOTÃO DELETAR
-        
         int resposta;
 
         resposta = JOptionPane.showConfirmDialog(rootPane, "Deseja realmente excluir!");
@@ -471,7 +466,7 @@ public class FrmCadastrar extends javax.swing.JFrame {
         if ( jDateInicio.getCalendar().after(jDateTermino.getCalendar())
                 || jDateInicio.getCalendar() == null
                 || jDateTermino.getCalendar() == null 
-                || (jDateInicio.getCalendar() == null && jDateTermino.getCalendar() == null ) ) {
+                || ( jDateInicio.getCalendar() == null && jDateTermino.getCalendar() == null ) ) {
         
             JOptionPane.showMessageDialog(rootPane, "Informe uma data válida para inicio e fim do anúncio!");
             
@@ -578,7 +573,6 @@ public class FrmCadastrar extends javax.swing.JFrame {
     private void btnPesquisarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPesquisarActionPerformed
         
         // BOTÃO PESQUISAR
-        
         if (txtPesquisar.getText().isEmpty()) {
             
             JOptionPane.showMessageDialog(rootPane, "Informe o nome do cliente para pesquisar!");
@@ -596,9 +590,9 @@ public class FrmCadastrar extends javax.swing.JFrame {
 
             mCadastrarAnuncio.setPesquisa(txtPesquisar.getText());
 
-            ModelCadastrarAnuncio mCadastrarAnuncio = controlCadastrarAnuncio.buscarCliente(this.mCadastrarAnuncio);
+            ModelCadastrarAnuncio mCadastrarAn = controlCadastrarAnuncio.buscarCliente(this.mCadastrarAnuncio);
             
-            preencherTabelaAnuncio("SELECT * FROM ANUNCIO WHERE NOME_CLIENTE LIKE '%" + mCadastrarAnuncio.getPesquisa() + "%'");
+            preencherTabelaAnuncio("SELECT * FROM ANUNCIO WHERE NOME_CLIENTE LIKE '%" + mCadastrarAn.getPesquisa() + "%'");
 
             txtPesquisar.setText("");
 
@@ -634,7 +628,6 @@ public class FrmCadastrar extends javax.swing.JFrame {
             
         }
                 
-        
     }//GEN-LAST:event_btnPesquisarActionPerformed
 
     private void btnCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCancelarActionPerformed
@@ -648,8 +641,7 @@ public class FrmCadastrar extends javax.swing.JFrame {
         jDateTermino.setDate(null);
         txtInvestimento.setText("");
         txtPesquisar.setText("");
-        txtCod.setText("");
-                    
+        txtCod.setText("");     
         
         // ABILITANDO/DESABILITANDO OS CAMPOS
         txtNomeAnuncio.setEnabled(!true);
@@ -766,7 +758,7 @@ public class FrmCadastrar extends javax.swing.JFrame {
                     conectaAnuncio.rs.getString("NOME_CLIENTE"), 
                     conectaAnuncio.rs.getDate("DATA_INICIO"), 
                     conectaAnuncio.rs.getDate("DATA_TERMINO"),
-                    conectaAnuncio.rs.getFloat("INVESTIMENTO_DIA") });
+                    "R$ " + conectaAnuncio.rs.getFloat("INVESTIMENTO_DIA") });
             
                }while(conectaAnuncio.rs.next());
             
