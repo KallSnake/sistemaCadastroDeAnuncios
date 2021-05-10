@@ -155,7 +155,7 @@ public class FrmRelatorio extends javax.swing.JFrame {
         
                 try {
 
-                    PdfWriter.getInstance(doc1, new FileOutputStream("ImpressaoRelatorioAnunciosCadastrado.pdf"));
+                    PdfWriter.getInstance(doc1, new FileOutputStream("C:\\Users\\Public\\Downloads\\ImpressaoRelatorioAnunciosCadastrado.pdf"));
                     
                     doc1.open();
 
@@ -260,7 +260,7 @@ public class FrmRelatorio extends javax.swing.JFrame {
 
                 try {
 
-                    Desktop.getDesktop().open(new File("ImpressaoRelatorioAnunciosCadastrado.pdf"));
+                    Desktop.getDesktop().open(new File("C:\\Users\\Public\\Downloads\\ImpressaoRelatorioAnunciosCadastrado.pdf"));
 
                 } catch (IOException ex) {
 
@@ -275,7 +275,7 @@ public class FrmRelatorio extends javax.swing.JFrame {
         
                 try {
 
-                    PdfWriter.getInstance(doc2, new FileOutputStream("ImpressaoRelatorioAnunciosCadastradoCliente_" 
+                    PdfWriter.getInstance(doc2, new FileOutputStream("C:\\Users\\Public\\DownloadsImpressaoRelatorioAnunciosCadastradoCliente_" 
                             + jComboCliente.getSelectedItem().toString() + ".pdf"));
                     
                     doc2.open();
@@ -382,7 +382,7 @@ public class FrmRelatorio extends javax.swing.JFrame {
 
                     try {
 
-                        Desktop.getDesktop().open(new File("ImpressaoRelatorioAnunciosCadastradoCliente_" 
+                        Desktop.getDesktop().open(new File("C:\\Users\\Public\\Downloads\\ImpressaoRelatorioAnunciosCadastradoCliente_" 
                             + jComboCliente.getSelectedItem().toString() + ".pdf"));
 
                     } catch (IOException ex) {
