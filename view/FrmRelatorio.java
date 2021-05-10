@@ -275,7 +275,7 @@ public class FrmRelatorio extends javax.swing.JFrame {
         
                 try {
 
-                    PdfWriter.getInstance(doc2, new FileOutputStream("C:\\Users\\Public\\DownloadsImpressaoRelatorioAnunciosCadastradoCliente_" 
+                    PdfWriter.getInstance(doc2, new FileOutputStream("C:\\Users\\Public\\Downloads\\ImpressaoRelatorioAnunciosCadastradoCliente_" 
                             + jComboCliente.getSelectedItem().toString() + ".pdf"));
                     
                     doc2.open();
