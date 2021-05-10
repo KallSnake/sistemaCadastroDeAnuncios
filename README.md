@@ -66,3 +66,18 @@ Selecionar abrir com -> OpenJDK Platform binary:
 
 ## Utilização do sistema
 
+Com o software em execução, você vai se deparar com duas opções: Cadastrar anúncio e Gerar relatório.
+
+Para que possa realizar o cadastro dos anúncios, clique no botão "adicionar":
+
+![](https://github.com/KallSnake/sistemaCadastroDeAnuncios/blob/main/img/Abrir%20Projeto%204.png)
+
+
+Preencha todos os campos disponíveis:
+
+![](https://github.com/KallSnake/sistemaCadastroDeAnuncios/blob/main/img/Abrir%20Projeto%205.png)
+
+
+Em seguida, clique no botão "Salvar":
+
+![](https://github.com/KallSnake/sistemaCadastroDeAnuncios/blob/main/img/Abrir%20Projeto%206.png)
